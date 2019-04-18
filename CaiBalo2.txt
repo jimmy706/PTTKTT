@@ -1,4 +1,4 @@
-40 5
+40
 15 30 2 Gao Mot bui
 10 25 1 Nep cai hoa vang
 2 2 1 Gao nang huong
