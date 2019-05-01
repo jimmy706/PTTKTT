@@ -11,7 +11,9 @@ void push_down(int arr[], int first, int last){
 	
 	while(r <= (last - 1)/2 ){ // while r <= arr[(n - 2)/2]
 		if(last == 2*r + 1){ // have left node only
-			if(arr[r] > arr[last]) swap(&arr[r], &arr[last]);
+			if(arr[r] > arr[last]) {
+				swap(&arr[r], &arr[last]);
+			}
 			r = last;
 		}
 		else 
